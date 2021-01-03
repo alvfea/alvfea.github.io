@@ -195,8 +195,8 @@ export default function ContactUsPage() {
                   title="Find us at the office"
                   description={
                     <p>
-                      Bld Mihail Kogalniceanu, nr. 8, <br /> 7652 Bucharest,{" "}
-                      <br /> Romania
+                      1, Ave. Sokwefa, Q/Salongo, <br />
+                      Commune de Lemba - Ville de Kinshasa
                     </p>
                   }
                   icon={PinDrop}
@@ -207,8 +207,8 @@ export default function ContactUsPage() {
                   title="Give us a ring"
                   description={
                     <p>
-                      Michael Jordan <br /> +40 762 321 762 <br /> Mon - Fri,
-                      8:00-22:00
+                       +243 312 037 732 <br /> 
+                       +243 903 852 232
                     </p>
                   }
                   icon={Phone}
@@ -216,11 +216,10 @@ export default function ContactUsPage() {
                 />
                 <InfoArea
                   className={classes.info}
-                  title="Legal Information"
+                  title="Email Us"
                   description={
                     <p>
-                      Creative Tim Ltd. <br /> VAT · EN2341241 <br /> IBAN ·
-                      EN8732ENGB2300099123 <br /> Bank · Great Britain Bank
+                      <a href="mailto: ayalvfea18@gmail.com">ayalvfea18@gmail.com</a>
                     </p>
                   }
                   icon={BusinessCenter}
