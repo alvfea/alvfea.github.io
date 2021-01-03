@@ -219,7 +219,7 @@ export default function ContactUsPage() {
                   title="Email Us"
                   description={
                     <p>
-                      <a href="mailto: ayalvfea18@gmail.com">ayalvfea18@gmail.com</a>
+                      <a href="mailto: alvfea18@gmail.com">ayalvfea18@gmail.com</a>
                     </p>
                   }
                   icon={BusinessCenter}
