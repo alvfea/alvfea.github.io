@@ -193,32 +193,29 @@ export default function SectionNavbars() {
               <List className={classes.list + " " + classes.mlAuto}>
                 <ListItem className={classes.listItem}>
                   <Button
-                    href="#pablo"
+                    href="/mission"
                     className={classes.navLink + " " + classes.navLinkActive}
-                    onClick={e => e.preventDefault()}
                     color="transparent"
                   >
-                    Discover
+                    Nos Mission
                   </Button>
                 </ListItem>
                 <ListItem className={classes.listItem}>
                   <Button
-                    href="#pablo"
+                    href="/about-us"
                     className={classes.navLink}
-                    onClick={e => e.preventDefault()}
                     color="transparent"
                   >
-                    Profile
+                    Notre Equipe
                   </Button>
                 </ListItem>
                 <ListItem className={classes.listItem}>
                   <Button
-                    href="#pablo"
+                    href="/contact-us"
                     className={classes.navLink}
-                    onClick={e => e.preventDefault()}
                     color="transparent"
                   >
-                    Settings
+                    Nous Contacter
                   </Button>
                 </ListItem>
               </List>
