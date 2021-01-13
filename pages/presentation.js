@@ -47,7 +47,7 @@ export default function PresentationPage() {
         }}
       />
       <Parallax
-        image={require("assets/img/nextjs_header.jpg")}
+        image={require("assets/img/children2.jpg")}
         className={classes.parallax}
       >
         <div className={classes.container}>
