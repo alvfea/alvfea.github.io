@@ -30,7 +30,7 @@ export default function SectionPricing() {
             className={classNames(classes.mlAuto, classes.mrAuto)}
           >
             <h2 className={classes.title}>
-              Ready to grab NextJS Material Kit PRO?
+              Text needs to be added here still
             </h2>
             <Button
               href="https://www.creative-tim.com/product/nextjs-material-kit-pro#pricingCard?ref=njsmkp-presentation"
@@ -38,7 +38,7 @@ export default function SectionPricing() {
               target="_blank"
               round
             >
-              <ShoppingCart className={classes.icons} /> buy now
+              <ShoppingCart className={classes.icons} /> Another button
             </Button>{" "}
             <Button
               href="https://www.creative-tim.com/product/nextjs-material-kit?ref=njsmkp-presentation"
@@ -46,30 +46,9 @@ export default function SectionPricing() {
               target="_blank"
               round
             >
-              <Store className={classes.icons} /> Check Free Demo
+              <Store className={classes.icons} /> Learn More
             </Button>
           </GridItem>
-          <div className={classes.socialLine}>
-            <div className={classes.container}>
-              <GridContainer>
-                <GridItem md={12}>
-                  <h4 className={classes.title}>Thank you for sharing!</h4>
-                  <Button color="twitter" href="#pablo" round>
-                    <i className={"fab fa-twitter " + classes.marginRight} />
-                    Twitter
-                  </Button>
-                  <Button color="facebook" href="#pablo" round>
-                    <i className={"fab fa-facebook " + classes.marginRight} />
-                    Facebook
-                  </Button>
-                  <Button color="google" href="#pablo" round>
-                    <i className={"fab fa-google " + classes.marginRight} />
-                    Google
-                  </Button>
-                </GridItem>
-              </GridContainer>
-            </div>
-          </div>
         </GridContainer>
       </div>
     </div>

@@ -37,7 +37,7 @@ export default function PresentationPage() {
   return (
     <div>
       <Header
-        brand="NextJS Material Kit PRO"
+        brand="ALVFEA"
         links={<HeaderLinks dropdownHoverColor="info" />}
         fixed
         color="transparent"
@@ -55,11 +55,10 @@ export default function PresentationPage() {
             <GridItem>
               <div className={classes.brand}>
                 <h1>
-                  NextJS Material Kit
-                  <span className={classes.proBadge}>PRO</span>
+                Association de Lutte contre les Violences des Valeurs de la Femme et des Enfants Abandonnés
                 </h1>
                 <h3 className={classes.title}>
-                  A Badass Material-UI Kit based on Material Design.
+                Une Association sans but lucratif de droit Congolais, par un groupe d'Activistes des Droits de l'homme et Acteurs de la société civile Congolaise;
                 </h3>
               </div>
             </GridItem>
@@ -68,65 +67,50 @@ export default function PresentationPage() {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <SectionDescription />
-        <SectionComponents />
-        <SectionCards />
-        <SectionContent />
-        <SectionSections />
-        <SectionFreeDemo />
-        <SectionOverview />
       </div>
       <SectionPricing />
       <Footer
-        theme="white"
+        theme="dark"
         content={
           <div>
             <div className={classes.left}>
               <a
-                href="https://www.creative-tim.com/product/nextjs-material-kit-pro?ref=njsmkp-presentation"
+                href="#"
                 target="_blank"
                 className={classes.footerBrand}
               >
-                NextJS Material Kit PRO
+                ALVFEA
               </a>
             </div>
             <div className={classes.pullCenter}>
-              <List className={classes.list}>
-                <ListItem className={classes.inlineBlock}>
-                  <a
-                    href="https://www.creative-tim.com/?ref=njsmkp-presentation"
-                    target="_blank"
-                    className={classes.block}
-                  >
-                    Creative Tim
-                  </a>
-                </ListItem>
-                <ListItem className={classes.inlineBlock}>
-                  <a
-                    href="https://www.creative-tim.com/presentation?ref=njsmkp-presentation"
-                    target="_blank"
-                    className={classes.block}
-                  >
-                    About us
-                  </a>
-                </ListItem>
-                <ListItem className={classes.inlineBlock}>
-                  <a
-                    href="http://blog.creative-tim.com/?ref=njsmkp-presentation"
-                    className={classes.block}
-                  >
-                    Blog
-                  </a>
-                </ListItem>
-                <ListItem className={classes.inlineBlock}>
-                  <a
-                    href="https://www.creative-tim.com/license?ref=njsmkp-presentation"
-                    target="_blank"
-                    className={classes.block}
-                  >
-                    Licenses
-                  </a>
-                </ListItem>
-              </List>
+            <List className={classes.list}>
+                  <ListItem className={classes.inlineBlock}>
+                    <a
+                      href="#"
+                      target="_blank"
+                      className={classes.block}
+                    >
+                      Nos Mission
+                    </a>
+                  </ListItem>
+                  <ListItem className={classes.inlineBlock}>
+                    <a
+                      href="#"
+                      className={classes.block}
+                    >
+                      Notre Equipe
+                    </a>
+                  </ListItem>
+                  <ListItem className={classes.inlineBlock}>
+                    <a
+                      href="#"
+                      target="_blank"
+                      className={classes.block}
+                    >
+                      Nous Contacter
+                    </a>
+                  </ListItem>
+                </List>
             </div>
             <div className={classes.rightLinks}>
               <ul>

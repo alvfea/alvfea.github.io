@@ -45,48 +45,39 @@ export default function SectionFooter() {
             <div>
               <div className={classes.left}>
                 <a
-                  href="https://www.creative-tim.com/product/nextjs-material-kit-pro?ref=njsmkp-footer-components"
+                  href="#"
                   target="_blank"
                   className={classes.footerBrand}
                 >
-                  NextJS Material Kit PRO
+                  ALVFEABlog
                 </a>
               </div>
               <div className={classes.pullCenter}>
                 <List className={classes.list}>
                   <ListItem className={classes.inlineBlock}>
                     <a
-                      href="https://www.creative-tim.com/?ref=njsmkp-footer-components"
+                      href="#"
                       target="_blank"
                       className={classes.block}
                     >
-                      Creative Tim
+                      Nos Mission
                     </a>
                   </ListItem>
                   <ListItem className={classes.inlineBlock}>
                     <a
-                      href="https://www.creative-tim.com/presentation?ref=njsmkp-footer-components"
-                      target="_blank"
+                      href="#"
                       className={classes.block}
                     >
-                      About us
+                      Notre Equipe
                     </a>
                   </ListItem>
                   <ListItem className={classes.inlineBlock}>
                     <a
-                      href="http://blog.creative-tim.com/?ref=njsmkp-footer-components"
-                      className={classes.block}
-                    >
-                      Blog
-                    </a>
-                  </ListItem>
-                  <ListItem className={classes.inlineBlock}>
-                    <a
-                      href="https://www.creative-tim.com/license?ref=njsmkp-footer-components"
+                      href="#"
                       target="_blank"
                       className={classes.block}
                     >
-                      Licenses
+                      Nous Contacter
                     </a>
                   </ListItem>
                 </List>
@@ -95,7 +86,7 @@ export default function SectionFooter() {
                 <ul>
                   <li>
                     <Button
-                      href="https://twitter.com/CreativeTim?ref=creativetim"
+                      href="#"
                       target="_blank"
                       color="twitter"
                       justIcon
@@ -106,7 +97,7 @@ export default function SectionFooter() {
                   </li>
                   <li>
                     <Button
-                      href="https://dribbble.com/creativetim?ref=creativetim"
+                      href="#"
                       target="_blank"
                       color="dribbble"
                       justIcon
@@ -117,7 +108,7 @@ export default function SectionFooter() {
                   </li>
                   <li>
                     <Button
-                      href="https://instagram.com/CreativeTimOfficial?ref=creativetim"
+                      href="#"
                       target="_blank"
                       color="google"
                       justIcon
@@ -137,40 +128,31 @@ export default function SectionFooter() {
           content={
             <div>
               <div className={classes.left}>
-                <List className={classes.list}>
+              <List className={classes.list}>
                   <ListItem className={classes.inlineBlock}>
                     <a
-                      href="https://www.creative-tim.com/?ref=njsmkp-footer-components"
+                      href="#"
                       target="_blank"
                       className={classes.block}
                     >
-                      Creative Tim
+                      Nos Mission
                     </a>
                   </ListItem>
                   <ListItem className={classes.inlineBlock}>
                     <a
-                      href="https://www.creative-tim.com/presentation?ref=njsmkp-footer-components"
-                      target="_blank"
+                      href="#"
                       className={classes.block}
                     >
-                      About us
+                      Notre Equipe
                     </a>
                   </ListItem>
                   <ListItem className={classes.inlineBlock}>
                     <a
-                      href="http://blog.creative-tim.com/?ref=njsmkp-footer-components"
-                      className={classes.block}
-                    >
-                      Blog
-                    </a>
-                  </ListItem>
-                  <ListItem className={classes.inlineBlock}>
-                    <a
-                      href="https://www.creative-tim.com/license?ref=njsmkp-footer-components"
+                      href="#"
                       target="_blank"
                       className={classes.block}
                     >
-                      Licenses
+                      Nous Contacter
                     </a>
                   </ListItem>
                 </List>
@@ -202,7 +184,7 @@ export default function SectionFooter() {
                   target="_blank"
                   className={classes.footerBrand}
                 >
-                  NextJS Material Kit PRO
+                  ALVFEA
                 </a>
               </div>
               <div className={classes.pullCenter}>
